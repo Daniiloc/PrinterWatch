@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterWatch", "PrinterWatch\PrinterWatch.csproj", "{EF5847FE-DF79-44C4-BA61-2AF199894A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5847FE-DF79-44C4-BA61-2AF199894A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5847FE-DF79-44C4-BA61-2AF199894A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5847FE-DF79-44C4-BA61-2AF199894A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5847FE-DF79-44C4-BA61-2AF199894A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EE7075-7A3E-4D3F-A97C-A6E931265626}
+	EndGlobalSection
+EndGlobal
