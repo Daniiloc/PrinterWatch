@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace PrinterWatch
 {
@@ -27,7 +15,7 @@ namespace PrinterWatch
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
         {
-            Regex rg = new Regex(@"\A\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}\Z");
+            Regex rg = new Regex(@"\A((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\Z");
             if (rg.IsMatch(IpTextBox.Text))
             {
                 DialogResult = true;

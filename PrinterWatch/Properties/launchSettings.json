@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PrinterWatch": {
+      "commandName": "Project",
+      "commandLineArgs": "manually"
+    }
+  }
+}
